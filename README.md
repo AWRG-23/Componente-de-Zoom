@@ -23,14 +23,17 @@ Dentro del constructor de la clase  tenemos programado el evento mouseclicked pa
 Descargar el archivo ZIP.
 Descomprimirlo y abrirlo en nuestro IDE Netbean.
 La clase ZoomPanel es la que nos va a servir para crear el componente:
-![image](https://github.com/user-attachments/assets/e205c0b2-0b0a-495a-ad60-df88e6a72660)
+![image](https://github.com/user-attachments/assets/5c49336e-570c-4f9f-93f8-8b1c4de52936)
+![image](https://github.com/user-attachments/assets/4c38202a-27cd-4566-9cbf-7132419c3e8a)
 
-![image](https://github.com/user-attachments/assets/5722f808-45f8-4b4b-832f-a71a2d32a66d)
 
 Des esta manera tendremos el componente en nuestra paleta:
 ![image](https://github.com/user-attachments/assets/b9320ff6-521a-4812-85ab-7bc7e91b8c04)
 
 Para su uso solo basta con arrastrarlo al JFrame y adaptarlo a su tamaño.
+
+# Uso
+Video demostrativo:
 
 
 
