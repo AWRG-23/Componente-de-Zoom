@@ -1,6 +1,5 @@
 # Componente-de-Zoom
 
-Descripción general.
 Este componente creado en java nos permite la posibilidad de realizar zoom en nuestros proyectos.
 
 # API
@@ -27,14 +26,14 @@ Descomprimir y abrir en el IDE (en este caso Netbeans).
 
 La clase ZoomPanel es la que nos va a servir para crear el componente:
 
-![image](https://github.com/user-attachments/assets/5c49336e-570c-4f9f-93f8-8b1c4de52936)
+![image](https://github.com/user-attachments/assets/8b18d49c-4c4d-46b4-9c09-d0fa9bfaef41)
 
-![image](https://github.com/user-attachments/assets/4c38202a-27cd-4566-9cbf-7132419c3e8a)
+![image](https://github.com/user-attachments/assets/82df3e2f-4feb-4ab3-8397-df7bdc7029a7)
 
 
 Des esta manera tendremos el componente en nuestra paleta:
 
-![image](https://github.com/user-attachments/assets/b9320ff6-521a-4812-85ab-7bc7e91b8c04)
+![image](https://github.com/user-attachments/assets/cc117932-eecd-471e-8e46-d0f84d451841)
 
 Para su uso solo basta con arrastrarlo al JFrame y adaptarlo a su tamaño.
 
