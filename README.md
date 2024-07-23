@@ -1,22 +1,24 @@
 # Componente-de-Zoom
 
 Descripción general.
-Este componente creado en java nos permite tener en la paleta de componenetes un panel para hacer zoom fácil de implementar en los proyectos.
+Este componente creado en java nos permite la posibilidad de realizar zoom en nuestros proyectos.
 
 # API
-La clase ZoomPanel nos permite crear un componenete de zoom
+La clase ZoomPanel nos permite crear un componenete de zoom, esto se logra modificando el tamaño de los componenetes.
 
-Se tiene como variable global a:
-double zoomFactor: esta variable nos sirve de referencia para modificar el zoom de la pantalla.
+Se tiene como vaiables globales a zoom  de tipo de double que almacena el valor inicial del zoom aplicado a la ventana, y a la variable ariginalBounds de tipo Map<Component, Rectangle> que nos sirve para alacenar el tamaño de los componentes usados.
+
 
 Como metodos:
-public void Zoom(double zoomfactor): este metodo hace posible el cambio de zoom en la pantalla.
+private void Original(): nos sirve para guardo los valores del tamaño de un componente en la variable originalBounds.
 
-protected void paintComponent(Graphics g): con este método haces posible el cambio de zoom en los componentes que integra el panel.
+public void setZoom(double newZoomFactor): a este métod se le pasa el valor de zoom a aplicar, llama al método Ajustar() para modificar el tamaño de los componentes.
 
-protected void paintChildren(Graphics g):se hace posible que los compnentes del panel no se dupliquen.
+private void Ajustar(): con este método se asignan los nuevos valores del tamaño de los componentes.
 
-Dentro del constructor de la clase  tenemos programado el evento mouseclicked para modificar el tamaño de la pantalla, a la hora de pulsar con el botón derecho disminuye y con el botón izquierdo aumenta.
+
+
+Dentro del constructor de la clase tenemos programado el evento mouseclicked para modificar el tamaño, a la hora de pulsar con el botón derecho disminuye y con el botón izquierdo aumenta.
 
 # Agregar como componente:
 
