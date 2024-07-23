@@ -18,12 +18,14 @@ private void Ajustar(): con este método se asignan los nuevos valores del tama�
 
 
 
-Dentro del constructor de la clase tenemos programado el evento mouseclicked para modificar el tamaño, a la hora de pulsar con el botón derecho disminuye y con el botón izquierdo aumenta.
+Dentro del constructor de la clase se tiene programado el evento mouseclicked para modificar el tamaño, a la hora de pulsar con el botón derecho disminuye y con el botón izquierdo aumenta.
 
 # Agregar como componente:
 
 Descargar el archivo ZIP.
-Descomprimirlo y abrirlo en nuestro IDE Netbean.
+
+Descomprimir y abrir en el IDE (en este caso Netbeans).
+
 La clase ZoomPanel es la que nos va a servir para crear el componente:
 ![image](https://github.com/user-attachments/assets/5c49336e-570c-4f9f-93f8-8b1c4de52936)
 ![image](https://github.com/user-attachments/assets/4c38202a-27cd-4566-9cbf-7132419c3e8a)
